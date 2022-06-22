@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Macaco Chalesco Brinquedo Para Cães Pelúcia Marrom",
+    "description": "Diversão garantida para seu cão.",
+    "price_cents": 3100,
+    "merchant_id": 2,
+    "image_url": "https://static.petz.com.br/fotos/1531491431642.jpg",
+    "categories": [
+      1
+    ],
+    "animalTypes": [
+      1, 2
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Brinquedo de Pelúcia Chalesco Crocodilo",
+    "description": "Ideal para os pets de todos os portes e idades.",
+    "price_cents": 2799,
+    "merchant_id": 2,
+    "image_url": "https://static.petz.com.br/fotos/1457992186939.jpg",
+    "categories": [
+      1
+    ],
+    "animalTypes": [
+      1, 2
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Brinquedo de Pelúcia Chalesco Cachorro",
+    "description": "Mantém seu cão livre de estresses.",
+    "price_cents": 2499,
+    "merchant_id": 2,
+    "image_url": "https://static.petz.com.br/fotos/1458590592588.jpg",
+    "categories": [
+      1
+    ],
+    "animalTypes": [
+      1, 2
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ração Royal Canin Maxi - Cães Adultos - 15kg",
+    "description": "Oferece todos nutrientes necessários para uma vida saudável.",
+    "price_cents": 34489,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/1574869316149.jpg",
+    "categories": [
+     2
+    ],
+    "animalTypes": [
+      1
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ração Royal Canin Medium - Cães Adultos",
+    "description": "Oferece todos nutrientes necessários para uma vida saudável.",
+    "price_cents": 9899,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/1574869059873.jpg",
+    "categories": [
+     2
+    ],
+    "animalTypes": [
+      1
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Golden 15 kg",
+    "description": "Oferece todos nutrientes necessários para uma vida saudável.",
+    "price_cents": 12999,
+    "merchant_id": 1,
+    "image_url": "https://50192.cdn.simplo7.net/static/50192/sku/cachorro-racao-golden-formula-mini-bits-para-cachorro-adulto-carne-e-arroz--p-1590533328758.jpg",
+    "categories": [
+     2
+    ],
+    "animalTypes": [
+      1
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Ração Úmida Hills Prescription Diet A/D Cuidados Críticos para Cães e Gatos - 156g",
+    "description": "Oferece todos nutrientes necessários para uma vida saudável.",
+    "price_cents": 3399,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/1455285594859.jpg",
+    "categories": [
+     2
+    ],
+    "animalTypes": [
+      1, 2
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ração Hills Science Diet para Cães Adultos de Grande Porte Sabor Frango 12kg",
+    "description": "Oferece todos nutrientes necessários para uma vida saudável.",
+    "price_cents": 36999,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/1613058542544.jpg",
+    "categories": [
+     2
+    ],
+    "animalTypes": [
+      1
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dogvilla Ferplast Casa Para Cães",
+    "description": "Conta com abertura lateral que se torna uma rampa.",
+    "price_cents": 122999,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/10037100000162-1.jpg",
+    "categories": [
+     1
+    ],
+    "animalTypes": [
+      1
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Apoquel Zoetis Dermatológico para Cães",
+    "description": "Alívio total da coceira em 24 horas.",
+    "price_cents": 21249,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/1474404553051.jpg",
+    "categories": [
+     3, 4
+    ],
+    "animalTypes": [
+      1
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Tapete Higiênico Petz para Cães Slim 30un",
+    "description": "Adesivo no verso dos tapetes para melhor fixação, tanto no chão, quanto na parede.",
+    "price_cents": 8699,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/1621452474335.jpg",
+    "categories": [
+      4
+    ],
+    "animalTypes": [
+      1
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tapete Higiênico Petz para Cães Superabsorvente 30 Unidades",
+    "description": "Adesivo no verso dos tapetes para melhor fixação, tanto no chão, quanto na parede.",
+    "price_cents": 8799,
+    "merchant_id": 1,
+    "image_url": "https://static.petz.com.br/fotos/1621452593731.jpg",
+    "categories": [
+      4
+    ],
+    "animalTypes": [
+      1
+    ]
+  }
+]

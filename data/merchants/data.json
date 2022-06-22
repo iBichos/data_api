@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "username": "Lojista 1",
+    "email": "email@a",
+    "password": "",
+    "cnpj": "cnpj",
+    "phoneNumber": "telefone",
+    "address": "endereço",
+    "companyName": "Petz Marketplace"
+  },
+  {
+    "id": 2,
+    "username": "chalesco",
+    "email": "email@a",
+    "password": "",
+    "cnpj": "cnpj",
+    "phoneNumber": "telefone",
+    "address": "endereço",
+    "companyName": "Chalesco"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "username": "teste",
+    "email": "teste123@gmail.com",
+    "password": "123",
+    "cpf": "12345678910",
+    "phoneNumber": "999999999",
+    "address": "Algum lugar222222"
+  }
+]
