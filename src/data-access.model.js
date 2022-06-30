@@ -26,14 +26,16 @@ export default class DataAccessModel {
 
     if (register === undefined) return
 
-    return new this(register)
+    return register
   }
 
   static findByField(tableName, field, value) {
     const registers = this.loadTable(tableName).data
     const register = registers.find(element => element[field] == value)
+
     if (register === undefined) return false
-    return new this(register)
+
+    return register
   }
 
   static create(tableName, params) {
