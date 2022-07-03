@@ -10,7 +10,8 @@
       1
     ],
     "animalTypes": [
-      1, 2
+      1,
+      2
     ]
   },
   {
@@ -24,7 +25,8 @@
       1
     ],
     "animalTypes": [
-      1, 2
+      1,
+      2
     ]
   },
   {
@@ -38,7 +40,8 @@
       1
     ],
     "animalTypes": [
-      1, 2
+      1,
+      2
     ]
   },
   {
@@ -49,7 +52,7 @@
     "merchant_id": 1,
     "image_url": "https://static.petz.com.br/fotos/1574869316149.jpg",
     "categories": [
-     2
+      2
     ],
     "animalTypes": [
       1
@@ -63,7 +66,7 @@
     "merchant_id": 1,
     "image_url": "https://static.petz.com.br/fotos/1574869059873.jpg",
     "categories": [
-     2
+      2
     ],
     "animalTypes": [
       1
@@ -77,7 +80,7 @@
     "merchant_id": 1,
     "image_url": "https://50192.cdn.simplo7.net/static/50192/sku/cachorro-racao-golden-formula-mini-bits-para-cachorro-adulto-carne-e-arroz--p-1590533328758.jpg",
     "categories": [
-     2
+      2
     ],
     "animalTypes": [
       1
@@ -91,10 +94,11 @@
     "merchant_id": 1,
     "image_url": "https://static.petz.com.br/fotos/1455285594859.jpg",
     "categories": [
-     2
+      2
     ],
     "animalTypes": [
-      1, 2
+      1,
+      2
     ]
   },
   {
@@ -105,7 +109,7 @@
     "merchant_id": 1,
     "image_url": "https://static.petz.com.br/fotos/1613058542544.jpg",
     "categories": [
-     2
+      2
     ],
     "animalTypes": [
       1
@@ -119,7 +123,7 @@
     "merchant_id": 1,
     "image_url": "https://static.petz.com.br/fotos/10037100000162-1.jpg",
     "categories": [
-     1
+      1
     ],
     "animalTypes": [
       1
@@ -133,7 +137,8 @@
     "merchant_id": 1,
     "image_url": "https://static.petz.com.br/fotos/1474404553051.jpg",
     "categories": [
-     3, 4
+      3,
+      4
     ],
     "animalTypes": [
       1
@@ -166,5 +171,20 @@
     "animalTypes": [
       1
     ]
+  },
+  {
+    "name": "teste api ATUALIZAÇÃO 2",
+    "description": "teste ATUALIZAÇÃO por api.",
+    "price_cents": 123,
+    "merchant_id": 2,
+    "image_url": "https://static.petz.com.br/fotos/1531491431642.jpg",
+    "categories": [
+      1
+    ],
+    "animalTypes": [
+      1,
+      2
+    ],
+    "id": 13
   }
 ]

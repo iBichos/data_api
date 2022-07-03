@@ -24,26 +24,20 @@ app.get('/findByField', (req, res) => {
   res.send(register);
 });
 
-// app.post('/create', (req, res) => {
-//   let products = DataAccessModel.create(req.body.table)
-//   res.send(products);
-// });
+app.post('/create', (req, res) => {
+  let products = DataAccessModel.create(req.body.table, req.body.params)
+  res.send(products);
+});
 
-// app.delete('/delete', (req, res) => {
-//   let products = DataAccessModel.delete(req.body.table)
-//   res.send(products);
-// });
+app.delete('/delete', (req, res) => {
+  let products = DataAccessModel.delete(req.body.table, req.body.id)
+  res.send(products);
+});
 
-// app.patch('/update', (req, res) => {
-//   let products = DataAccessModel.update(req.body.table)
-//   res.send(products);
-// });
-
-
-
-
-
-
+app.put('/update', (req, res) => {
+  let products = DataAccessModel.update(req.body.table, req.body.id, req.body.params)
+  res.send(products);
+});
 
 // starting the server
 app.listen(3001, () => {

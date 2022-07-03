@@ -49,24 +49,24 @@ export default class DataAccessModel {
       id = lastElementid + 1
     }
 
-    let values = {
-      "id": id
-    }
 
+    params["id"] = id
+
+    // VALIDAR NO LADO DO APP
     // constroi os parametros usando os campos do model e os parametros passados
-    this.fields.forEach((field) => {
-      if (params[field] !== null) {
-        values[field] = params[field]
-      } else {
-        values[field] = null
-      }
-    })
+    // this.fields.forEach((field) => {
+    //   if (params[field] !== null) {
+    //     values[field] = params[field]
+    //   } else {
+    //     values[field] = null
+    //   }
+    // })
 
     // salvando no banco de dados
-    table.data.push(values)
+    table.data.push(params)
     table.write()
 
-    return this.find(id)
+    return this.find(tableName, id)
   }
 
   static delete(tableName, id) {
@@ -86,14 +86,19 @@ export default class DataAccessModel {
 
     if (index === -1) return
 
+    // VALIDAR NO LADO DO APP
     // atualizando os campos no banco usando os campos do model e os parametros passados
-    this.fields.forEach((field) => {
-      if (params[field] !== null && params[field] !== undefined) {
-        table.data[index][field] = params[field]
-      }
-    })
+    // this.fields.forEach((field) => {
+    //   if (params[field] !== null && params[field] !== undefined) {
+    //     table.data[index][field] = params[field]
+    //   }
+    // })
+
+    params["id"] = id
+
+    table.data[index] = params
     table.write()
 
-    return this.find(id)
+    return this.find(tableName, id)
   }
 }
