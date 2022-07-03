@@ -28,16 +28,19 @@ app.get('/findByField', (req, res) => {
 });
 
 app.post('/create', (req, res) => {
+  console.log('creating in', req.query.table)
   let register = DataAccessModel.create(req.body.table, req.body.params)
   res.send(register);
 });
 
 app.delete('/delete', (req, res) => {
-  let register = DataAccessModel.delete(req.body.table, req.body.id)
+  console.log('deleting in', req.query.table)
+  let register = DataAccessModel.delete(req.query.table, req.query.id)
   res.send(register);
 });
 
 app.put('/update', (req, res) => {
+  console.log('updating in', req.query.table)
   let register = DataAccessModel.update(req.body.table, req.body.id, req.body.params)
   res.send(register);
 });
