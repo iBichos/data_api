@@ -22,6 +22,7 @@ app.get('/find', (req, res) => {
 });
 
 app.get('/findByField', (req, res) => {
+  console.log('finding by field', req.query.table)
   let register = DataAccessModel.findByField(req.query.table, req.query.field, req.query.value)
   res.send(register);
 });

@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "username": "Lojista 1",
+    "username": "loja1",
     "email": "email@a",
-    "password": "",
+    "password": "123",
     "cnpj": "cnpj",
     "phoneNumber": "telefone",
     "address": "endereço",

@@ -86,17 +86,8 @@ export default class DataAccessModel {
 
     if (index === -1) return
 
-    // VALIDAR NO LADO DO APP
-    // atualizando os campos no banco usando os campos do model e os parametros passados
-    // this.fields.forEach((field) => {
-    //   if (params[field] !== null && params[field] !== undefined) {
-    //     table.data[index][field] = params[field]
-    //   }
-    // })
-
-    params["id"] = id
-
-    table.data[index] = params
+    //da merge nos parametros com oque ja existe no banco
+    table.data[index] =  {... table.data[index], ...params}
     table.write()
 
     return this.find(tableName, id)
