@@ -10,33 +10,35 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get('/list', (req, res) => {
-  let products = DataAccessModel.list(req.body.table)
+  console.log('listing', req.query.table )
+  let products = DataAccessModel.list(req.query.table)
   res.send(products);
 });
 
 app.get('/find', (req, res) => {
-  let products = DataAccessModel.find(req.body.table, req.body.id)
-  res.send(products);
+  console.log('finding', req.query.table)
+  let register = DataAccessModel.find(req.query.table, req.query.id)
+  res.send(register);
 });
 
 app.get('/findByField', (req, res) => {
-  let register = DataAccessModel.findByField(req.body.table, req.body.field, req.body.value)
+  let register = DataAccessModel.findByField(req.query.table, req.query.field, req.query.value)
   res.send(register);
 });
 
 app.post('/create', (req, res) => {
-  let products = DataAccessModel.create(req.body.table, req.body.params)
-  res.send(products);
+  let register = DataAccessModel.create(req.body.table, req.body.params)
+  res.send(register);
 });
 
 app.delete('/delete', (req, res) => {
-  let products = DataAccessModel.delete(req.body.table, req.body.id)
-  res.send(products);
+  let register = DataAccessModel.delete(req.body.table, req.body.id)
+  res.send(register);
 });
 
 app.put('/update', (req, res) => {
-  let products = DataAccessModel.update(req.body.table, req.body.id, req.body.params)
-  res.send(products);
+  let register = DataAccessModel.update(req.body.table, req.body.id, req.body.params)
+  res.send(register);
 });
 
 // starting the server
