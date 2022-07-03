@@ -49,18 +49,7 @@ export default class DataAccessModel {
       id = lastElementid + 1
     }
 
-
     params["id"] = id
-
-    // VALIDAR NO LADO DO APP
-    // constroi os parametros usando os campos do model e os parametros passados
-    // this.fields.forEach((field) => {
-    //   if (params[field] !== null) {
-    //     values[field] = params[field]
-    //   } else {
-    //     values[field] = null
-    //   }
-    // })
 
     // salvando no banco de dados
     table.data.push(params)
