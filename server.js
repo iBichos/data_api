@@ -11,8 +11,8 @@ app.use(bodyParser.json())
 
 app.get('/list', (req, res) => {
   console.log('listing', req.query.table )
-  let products = DataAccessModel.list(req.query.table)
-  res.send(products);
+  let registers = DataAccessModel.list(req.query.table)
+  res.send(registers);
 });
 
 app.get('/find', (req, res) => {
