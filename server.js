@@ -28,7 +28,7 @@ app.get('/findByField', (req, res) => {
 });
 
 app.post('/create', (req, res) => {
-  console.log('creating in', req.query.table)
+  console.log('creating in', req.body.table)
   let register = DataAccessModel.create(req.body.table, req.body.params)
   res.send(register);
 });
