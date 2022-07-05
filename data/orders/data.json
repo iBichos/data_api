@@ -150,5 +150,44 @@
         "image_url": "https://50192.cdn.simplo7.net/static/50192/sku/cachorro-racao-golden-formula-mini-bits-para-cachorro-adulto-carne-e-arroz--p-1590533328758.jpg"
       }
     ]
+  },
+  {
+    "customer_id": 1,
+    "total_price_cents": 2499,
+    "status": "Pedido pendente",
+    "created_at": "02/12/2022",
+    "products": [
+      {
+        "id": 3,
+        "quantity": 1,
+        "name": "Brinquedo de Pelúcia Chalesco Cachorro",
+        "price_cents": 2499,
+        "image_url": "https://static.petz.com.br/fotos/1458590592588.jpg"
+      }
+    ],
+    "id": 9
+  },
+  {
+    "customer_id": 1,
+    "total_price_cents": 37288,
+    "status": "Pedido pendente",
+    "created_at": "02/12/2022",
+    "products": [
+      {
+        "id": 2,
+        "quantity": 1,
+        "name": "Brinquedo de Pelúcia Chalesco Crocodilo",
+        "price_cents": 2799,
+        "image_url": "https://static.petz.com.br/fotos/1457992186939.jpg"
+      },
+      {
+        "id": 4,
+        "quantity": 1,
+        "name": "Ração Royal Canin Maxi - Cães Adultos - 15kg",
+        "price_cents": 34489,
+        "image_url": "https://static.petz.com.br/fotos/1574869316149.jpg"
+      }
+    ],
+    "id": 10
   }
 ]

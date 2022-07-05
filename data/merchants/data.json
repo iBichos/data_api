@@ -1,15 +1,5 @@
 [
   {
-    "id": 1,
-    "username": "loja1",
-    "email": "email@a",
-    "password": "123",
-    "cnpj": "cnpj",
-    "phoneNumber": "telefone",
-    "address": "endereço",
-    "companyName": "Petz Marketplace"
-  },
-  {
     "id": 2,
     "username": "chalesco",
     "email": "email@a",
@@ -18,5 +8,10 @@
     "phoneNumber": "telefone",
     "address": "endereço",
     "companyName": "Chalesco"
+  },
+  {
+    "username": "lojist11",
+    "password": "123",
+    "id": 3
   }
 ]

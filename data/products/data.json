@@ -1,64 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Macaco Chalesco Brinquedo Para Cães Pelúcia Marrom",
-    "description": "Diversão garantida para seu cão.",
-    "price_cents": 3100,
-    "merchant_id": 2,
-    "image_url": "https://static.petz.com.br/fotos/1531491431642.jpg",
-    "categories": [
-      1
-    ],
-    "animalTypes": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Brinquedo de Pelúcia Chalesco Crocodilo",
-    "description": "Ideal para os pets de todos os portes e idades.",
-    "price_cents": 2799,
-    "merchant_id": 2,
-    "image_url": "https://static.petz.com.br/fotos/1457992186939.jpg",
-    "categories": [
-      1
-    ],
-    "animalTypes": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Brinquedo de Pelúcia Chalesco Cachorro",
-    "description": "Mantém seu cão livre de estresses.",
-    "price_cents": 2499,
-    "merchant_id": 2,
-    "image_url": "https://static.petz.com.br/fotos/1458590592588.jpg",
-    "categories": [
-      1
-    ],
-    "animalTypes": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Ração Royal Canin Maxi - Cães Adultos - 15kg",
-    "description": "Oferece todos nutrientes necessários para uma vida saudável.",
-    "price_cents": 34489,
-    "merchant_id": 1,
-    "image_url": "https://static.petz.com.br/fotos/1574869316149.jpg",
-    "categories": [
-      2
-    ],
-    "animalTypes": [
-      1
-    ]
-  },
-  {
     "id": 5,
     "name": "Ração Royal Canin Medium - Cães Adultos",
     "description": "Oferece todos nutrientes necessários para uma vida saudável.",
@@ -173,18 +114,17 @@
     ]
   },
   {
-    "name": "teste api ATUALIZAÇÃO 2",
-    "description": "teste ATUALIZAÇÃO por api.",
-    "price_cents": 123,
-    "merchant_id": 2,
-    "image_url": "https://static.petz.com.br/fotos/1531491431642.jpg",
-    "categories": [
-      1
-    ],
-    "animalTypes": [
-      1,
-      2
-    ],
-    "id": 13
+    "name": "Xaropinho Pastor",
+    "price_cents": "6500",
+    "description": "Brinquedo para seu cachorro evangélico",
+    "image_url": "https://www.portaldoceu.com.br/img_sistemas/ecommerce/img_produtos/387/foto_0_299520_bonecopre(3).jpg",
+    "id": 15
+  },
+  {
+    "name": "Ratinho da Feature",
+    "price_cents": "25000",
+    "description": "Para o seu cliente cachorro",
+    "image_url": "https://i.ebayimg.com/images/g/eMsAAOSwwEViv4b-/s-l500.jpg",
+    "id": 16
   }
 ]
