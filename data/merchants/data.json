@@ -10,8 +10,13 @@
     "companyName": "Chalesco"
   },
   {
-    "username": "lojist11",
-    "password": "123",
-    "id": 3
+    "username": "lojista",
+    "password": "",
+    "id": 3,
+    "email": "email@email",
+    "cnpj": "cnpj",
+    "phoneNumber": "telefone",
+    "address": "endereço",
+    "companyName": "empresa"
   }
 ]
